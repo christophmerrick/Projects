@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Google Clone</title>
+        <link rel="stylesheet" type="text/css" href="google_clone.css">
+    </head>
+
+    <body>
+        <header>
+            <ul id='nav-right'>
+                <li><a id="gmail">Gmail</a></li>
+                <li><a id="images">Images</a></li>
+                <li><input type="button" id="sign-in" value="Sign In" /></li>
+            </ul>
+
+            <script type="text/javascript">
+                function header()
+                {
+                    var my_search_box = document.getElementById("search-box");
+                    my_search_box.focus();
+                }
+                onload = header;
+            </script>
+        </header>
+
+        <div id="filler">
+            <div id="logo">
+                <img src="picture/logo.png" alt="Google Logo" width="375" />
+            </div>
+
+            <div id="search">
+                <input id="search-box" type="text" name="search" />
+            </div>
+
+            <div id="search-buttons">
+                <input type="button" class="button" name="google" value="Google Search" />
+                <input type="button" class="button" name="google" value="I'm Feeling Lucky" />
+            </div>
+        </div>
+        <p><a href="http://www.xmasclock.com/"> Skydive with Santa and boogie with elves </a> in Santa’s Village.
+        </p>
+
+    </body>
+</html>

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<meta charset="utf-8">
+			<title>HTML Tables</title>
+			<style> 
+
+				table {
+					font-family: sans-serif cursive;
+					width: 100%;
+					border-collapse: collapse;
+				}
+
+
+
+				td, th {
+					padding: 15px;
+					text-align: left;
+					border:3px solid black;
+					font-size: 1.2em;
+				}
+				
+				th {
+					background-color: #7c7c63;
+					color: #2f3135;
+					font-size: 1.5em;
+				}
+
+
+				tr:nth-child(even) {
+					background-color: #2568ed;
+					color: white;
+				}
+
+				.status {
+					text-align: center;
+				}
+
+				
+			</style>
+
+		</head>
+		
+		<body>
+
+		<form action="contact_form.php" method="get">
+			<input type="submit" value=" Send Contact Request" 
+			
+		</form>
+
+			<table>
+				<tr>class="status"
+
+					<th>Name</th>
+					<th>Average</th>
+					<th>HRs</th>
+					<th>RBIs</th>
+					<th colspan="3"></th>
+
+				</tr>
+
+				<tr>
+					<td>Altuve, Jose</td>
+					<td>.350</td>
+					<td>32</td>
+					<td>120</td>
+					<td class="status">Edit</td>
+					<td class="status"class="status">Delete</td>
+					<td rowspan="6" class="status">Updated Daily</td>
+				</tr>
+
+				<tr>
+					<td>Beckman, Alex</td>
+					<td>.560</td>
+					<td>32</td>
+					<td>170</td>
+					<td class="status">Edit</td>
+					<td class="status">Delete</td>
+				</tr>
+
+				<tr>
+					<td>Reed, AJ</td>
+					<td>.350</td>
+					<td>43</td>
+					<td>567</td>
+					<td class="status">Edit</td>
+					<td class="status">Delete</td>
+				</tr>
+
+				<tr>
+					<td>Correa, Carlos</td>
+					<td>.100</td>
+					<td>45</td>
+					<td>20</td>
+					<td class="status">Edit</td>
+					<td class="status">Delete</td>
+				</tr>
+
+				<tr>
+					<td>White, Tyler</td>
+					<td>.286</td>
+					<td>20</td>
+					<td>200</td>
+					<td class="status">Edit</td>
+					<td class="status">Delete</td>
+				</tr>
+
+				<tr>
+					<td colspan="6"> <strong>Totals:</strong> </td>
+				</tr>
+
+
+			</table>
+
+		</body>
+</html>

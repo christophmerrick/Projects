@@ -1,0 +1,201 @@
+header {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: right;	
+	
+	
+
+}
+
+#search-box {
+	width: 1100px;
+	background-color: #e0e3e5;
+	height: 35px;
+	font-size: 20px;
+	font-family: cursive;
+
+	
+}
+.fa {
+	border: none;
+	clear: both;
+	margin-left: 30px;
+	border-radius: 2px;
+	padding: 10px;
+	padding-right: 20px;
+	
+		
+}
+
+#pin {
+	height: 50px;
+	width: 50px;
+	padding-right: 20px;
+	padding-left: 20px;
+	
+}
+
+#buttons {
+	font-size: 30px;
+	color: gray;
+	text-decoration: none;
+
+
+}
+hr {
+	color: solid black;
+
+}
+
+content {
+	margin-top: 1000px;
+}
+
+
+#column1 { 
+	float: left;
+	width: 30%;
+	margin-left: 5%;
+	margin-right: 1px;
+
+	
+
+}
+
+#column2 {
+	float: left;
+	width: 30%;
+	margin-left: 2px;
+
+}
+
+#column3 {
+	float: left;
+	width: 30%;
+	margin-left: 2px;
+
+}
+
+#pic1 {
+	margin: 4px;
+	text-align: center;
+	background-color: #dee2e5;
+}
+#pic1:hover {
+	background-color: gray;
+	border: red;
+	cursor: pointer;
+}
+
+#pic2 {
+	margin: 4px;
+	text-align: center;
+	background-color: #dee2e5;
+}
+
+#pic2:hover {
+	background-color: gray;
+	border: red;
+	cursor: pointer;
+}
+
+#pic3 {
+	margin: 4px;
+	text-align: center;
+	background-color: #dee2e5;
+}
+
+#pic3:hover {
+	background-color: gray;
+	border: red;
+	cursor: pointer;
+}
+
+
+#pic4 {
+	margin: 4px;
+	text-align: center;
+	background-color: #dee2e5;
+}
+
+#pic4:hover {
+	background-color: gray;
+	border: red;
+	cursor: pointer;
+}
+
+
+#pic5 {
+	margin: 4px;
+	text-align: center;
+	background-color: #dee2e5;
+}
+
+#pic5:hover {
+	background-color: gray;
+	border: red;
+	cursor: pointer;
+}
+
+#pic6 {
+	margin: 4px;
+	text-align: center;
+	background-color: #dee2e5;
+}
+
+#pic6:hover {
+	background-color: gray;
+	border: red;
+	cursor: pointer;
+}
+
+
+#pic7 {
+	margin: 4px;
+	text-align: center;
+	background-color: #dee2e5;
+}
+
+#pic7:hover {
+	background-color: gray;
+	border: red;
+	cursor: pointer;
+}
+
+#pic8 {
+	margin: 4px;
+	text-align: center;
+	background-color: #dee2e5;
+}
+
+#pic8:hover {
+	background-color: gray;
+	border: red;
+	cursor: pointer;
+}
+
+#pic9 {
+	margin: 4px;
+	text-align: center;
+	background-color: #dee2e5;
+}
+
+#pic9:hover {
+	background-color: gray;
+	border: red;
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

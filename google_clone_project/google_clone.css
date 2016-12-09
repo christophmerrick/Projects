@@ -1,0 +1,104 @@
+header {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    text-align: right;
+}
+
+header ul li {
+    display: inline-block;
+    margin: 10px;
+}
+
+header a:link {
+    color: black;
+    font-family: sans-serif;
+    text-decoration: none;
+
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+#sign-in {
+    border-radius: 2px;
+    width: 80px;
+    height: 35px;
+    background-color: #296fe8;
+    color: white;
+    position: relative;
+    font-size: .8em;
+    text-align: center;
+    font-weight: 600;
+    margin: 0px 5px 5px 5px;
+    border: 1px solid black;
+}
+
+#filler {
+    margin-top: 200px !important;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo {
+    clear: both;
+    width: 100%;
+    text-align: center;
+}
+
+#search {
+    clear: both;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#search-box {
+    width: 600px;
+    height: 25px;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 0px 0px 5px 0px;
+}
+
+
+.button {
+    border-radius: 2px;
+    width: 140px;
+    height: 40px;
+    background-color: #f3f3f3;
+    color: grey;
+    position: relative;
+    font-size: .80em;
+    font-family: Arial;
+    text-align: center;
+    font-weight: 600;
+    margin: 0px 5px 5px 5px;
+    border: 0px solid white;
+}
+
+.button:hover {
+    border: 1px solid black;
+    cursor: pointer;
+}
+#search-buttons {
+    clear: both;
+    margin-top: 20px;
+}
+p {
+	text-align: center;
+	padding-top: 5px;
+}
+p a:link {
+color: #429dd6;
+
+}
+
+p a:hover {
+	color: orange;
+}
+
+
